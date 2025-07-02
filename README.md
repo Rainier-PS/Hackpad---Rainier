@@ -1,6 +1,6 @@
 # Xiao 3x3 Pad
 
-A compact 3x3 macropad with an encoder, OLED screen, RGB backlight, and multiple keymap layers. Built using KMK firmware and Seeed XIAO RP2040. Designed for shortcuts, media control, number input, and visual layer feedback.
+A compact 3x3 macropad with an encoder, OLED screen, LED backlight, and multiple keymap layers. Built using KMK firmware and Seeed XIAO RP2040. Designed for shortcuts, media control, number input, and visual layer feedback.
 
 ## Features
 
@@ -58,16 +58,16 @@ Encoder and screen modes remain active.
 
 ## BOM: Bill of Materials
 
-| Quantity | Component                  | Notes                                                                 |
-|----------|----------------------------|-----------------------------------------------------------------------|
-| 9        | Cherry MX-compatible switches | Any MX-style switch (linear/tactile/clicky)                          |
-| 9        | DSA profile keycaps        | Or any compatible keycaps (1U)                                       |
-| 12       | 1N4148 DO-35 diodes        | For switch matrix (only 9 needed, extras for spares)                 |
-| 1        | EC11 rotary encoder        | With built-in push button                                            |
-| 1        | 0.91" 128x32 OLED (I²C)    | SSD1306-compatible (GND/VCC/SCL/SDA)                                 |
-| 16       | WS2812B addressable LEDs   | For underglow or key backlighting                                    |
-| 1        | Seeed XIAO RP2040          | Through-hole version (required for compatibility)                    |
-| 1        | Custom PCB                 | 2-layer, ≤100×100mm                                                  |
-| 1        | 3D Printed Case            | Two parts: top and bottom                                            |
-| 7        | M3×5×4 heat-set inserts    | Used for assembly                                                    |
-| 7        | M3×4 screws                | For screwing into inserts                                            |
+| Component                    | Quantity | Notes                                                                 |
+|-----------------------------|----------|-----------------------------------------------------------------------|
+| Cherry MX-compatible switches | 9        | Any MX-style switch (linear/tactile/clicky)                          |
+| DSA profile keycaps         | 9        | Or any compatible keycaps (1U)                                       |
+| 1N4148 DO-35 diodes         | 12       | For switch matrix (only 9 needed, extras for spares)                 |
+| EC11 rotary encoder         | 1        | With built-in push button                                            |
+| 0.91" 128x32 OLED (I²C)     | 1        | SSD1306-compatible (GND/VCC/SCL/SDA)                                 |
+| WS2812B addressable LEDs    | 16       | For underglow or key backlighting                                    |
+| Seeed XIAO RP2040           | 1        | Through-hole version (required for compatibility)                    |
+| Custom PCB                  | 1        | 2-layer, ≤100×100mm                                                  |
+| 3D Printed Case             | 1        | Two parts: top and bottom                                            |
+| M3×5×4 heat-set inserts     | 7        | Used for assembly                                                    |
+| M3×4 screws                 | 7        | For screwing into inserts                                            |
