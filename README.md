@@ -23,9 +23,6 @@ A compact 3x3 macropad with an encoder, OLED screen, LED backlight, and multiple
 ### PCB Layout
 (*Insert PCB layout screenshot from KiCad*)
 
-### Exploded CAD View
-(*Insert CAD render showing how the case fits together*)
-
 ## Layer Configuration
 
 ### Layer 0 – Shortcuts and Media
