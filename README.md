@@ -15,13 +15,14 @@ A compact 3x3 macropad with an encoder, OLED screen, LED backlight, and multiple
 ## Visual Overview
 
 ### Assembled Hackpad
-(*Insert a screenshot or photo of the final build here*)
+![cad_screenshot](images/CAD.png)
+![cad_screenshot](images/CAD-Top.png)
 
 ### Schematic
-(*Insert schematic screenshot here*)
+![Schematic](images/Schematics.png)
 
 ### PCB Layout
-(*Insert PCB layout screenshot from KiCad*)
+![PCB](images/PCB.png)
 
 ## Layer Configuration
 
@@ -55,16 +56,16 @@ Encoder and screen modes remain active.
 
 ## BOM: Bill of Materials
 
-| Component                    | Quantity | Notes                                                                 |
+| Component                   | Quantity | Notes                                                                 |
 |-----------------------------|----------|-----------------------------------------------------------------------|
-| Cherry MX-compatible switches | 9        | Any MX-style switch (linear/tactile/clicky)                          |
-| DSA profile keycaps         | 9        | Or any compatible keycaps (1U)                                       |
-| 1N4148 DO-35 diodes         | 12       | For switch matrix (only 9 needed, extras for spares)                 |
+| MX-Style switches           | 9        | Any MX-style switch (linear/tactile/clicky)                          |
+| Blank DSA keycaps (White)   | 9        | Or any compatible keycaps                                            |
+| Through-hole 1N4148 Diodes  | 12       | For switch matrix and rotary encoder                                 |
 | EC11 rotary encoder         | 1        | With built-in push button                                            |
 | 0.91" 128x32 OLED (I²C)     | 1        | SSD1306-compatible (GND/VCC/SCL/SDA)                                 |
-| WS2812B addressable LEDs    | 16       | For underglow or key backlighting                                    |
+| SK6812 MINI-E LEDs          | 16       | For underglow or key backlighting                                    |
 | Seeed XIAO RP2040           | 1        | Through-hole version (required for compatibility)                    |
 | Custom PCB                  | 1        | 2-layer, ≤100×100mm                                                  |
 | 3D Printed Case             | 1        | Two parts: top and bottom                                            |
-| M3×5×4 heat-set inserts     | 7        | Used for assembly                                                    |
-| M3×4 screws                 | 7        | For screwing into inserts                                            |
+| M3×5m×4mm heat-set inserts  | 7        | Used for assembly                                                    |
+| M3x16mm screws              | 7        | For screwing into inserts                                            |
