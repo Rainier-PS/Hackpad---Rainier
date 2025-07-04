@@ -1,4 +1,4 @@
-# Xiao 3x3 Pad
+# Hackpad-Rainier
 
 A compact 3x3 macropad with an encoder, OLED screen, LED backlight, and multiple keymap layers. Built using KMK firmware and Seeed XIAO RP2040. Designed for shortcuts, media control, number input, and visual layer feedback.
 
