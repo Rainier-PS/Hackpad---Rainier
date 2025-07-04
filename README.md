@@ -71,3 +71,5 @@ Encoder and screen modes remain active.
 | 3D Printed Case             | 1        | Two parts: top and bottom                                            |
 | M3×5m×4mm heat-set inserts  | 7        | Used for assembly                                                    |
 | M3x16mm screws              | 7        | For screwing into inserts                                            |
+
+>This project strictly adheres to the Hackpad requirements: only approved parts are used, with no external or unlisted components. The case is entirely 3D printed, with no acrylic, laser-cut, or non-printed parts involved.
