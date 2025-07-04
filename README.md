@@ -18,6 +18,8 @@ A compact 3x3 macropad with an encoder, OLED screen, LED backlight, and multiple
 ![cad_screenshot](images/CAD.png)
 ![cad_screenshot](images/CAD-Top.png)
 
+> Hackpad case is branded using my name on the interior!
+
 ### Schematic
 ![Schematic](images/Schematics.png)
 
