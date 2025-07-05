@@ -1,16 +1,16 @@
 # Hackpad-Rainier
 
-A compact 3x3 macropad with an encoder, OLED screen, LED backlight, and multiple keymap layers. Built using KMK firmware and Seeed XIAO RP2040. Designed for shortcuts, media control, number input, and visual layer feedback.
+Hackpad-Rainier is a small 3x3 macropad featuring an encoder, OLED display, LED backlight, and various keymap layers. It is constructed using KMK firmware and the Seeed XIAO RP2040. It is designed to facilitate shortcuts, media management, number entry, and visual feedback for different layers.
 
 ## Features
 
-- 3×3 key matrix (9 physical keys)
-- EC11 rotary encoder with push switch
-- Layer switching via encoder press or key combo
-- OLED screen for layer/mode display
-- WS2812B LED backlight with multiple brightness modes
-- KMK firmware (Python-based, flexible and beginner-friendly)
-- Custom PCB (2-layer) and 3D-printed case
+- 3×3 key configuration (9 physical buttons)
+- EC11 rotary encoder that includes a push button
+- Layer switching through encoder press or key combinations
+- OLED display for showing layers and modes
+- SK6812 MINI-E LEDs backlight with several brightness settings
+- KMK firmware 
+- Custom-designed PCB (2-layer) and a 3D-printed case
 
 ## Visual Overview
 
@@ -72,4 +72,4 @@ Encoder and screen modes remain active.
 | M3×5m×4mm heat-set inserts  | 7        | Used for assembly                                                    |
 | M3x16mm screws              | 7        | For screwing into inserts                                            |
 
->This project strictly adheres to the Hackpad requirements: only approved parts are used, with no external or unlisted components. The case is entirely 3D printed, with no acrylic, laser-cut, or non-printed parts involved.
+>This project follows the Hackpad requirements: only approved parts are used,the case is entirely 3D printed, with no non-printed parts involved.
